@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000416] (epos_node_test) JobQueued: {'identifier': 'epos_node_test', 'dependencies': OrderedDict()}
+[0.000452] (epos_node_test) JobStarted: {'identifier': 'epos_node_test'}
+[0.011747] (epos_node_test) JobProgress: {'identifier': 'epos_node_test', 'progress': 'cmake'}
+[0.013841] (epos_node_test) JobProgress: {'identifier': 'epos_node_test', 'progress': 'build'}
+[0.013920] (epos_node_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test', '--', '-j8', '-l8'], 'cwd': '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'victor'), ('LC_TIME', 'en_DK.UTF-8'), ('SSH_AGENT_PID', '1782'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/victor'), ('OLDPWD', '/home/victor/Desktop/ROB8-Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_DK.UTF-8'), ('MANAGERPID', '1597'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'victor'), ('JOURNAL_STREAM', '8:42978'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/victor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/victor-Surface-Book-2:@/tmp/.ICE-unix/1823,unix/victor-Surface-Book-2:/tmp/.ICE-unix/1823'), ('INVOCATION_ID', 'e1a7713eed7d4b2492846f954569854b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_DK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8c1b9e5_779b_43ef_8043_2dc822154279'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_DK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_DK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_DK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_DK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_DK.UTF-8'), ('LC_PAPER', 'en_DK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test:/opt/ros/foxy')]), 'shell': False}
+[0.046439] (epos_node_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.071143] (epos_node_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.071362] (epos_node_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099525] (-) TimerEvent: {}
+[0.199884] (-) TimerEvent: {}
+[0.246822] (epos_node_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.300034] (-) TimerEvent: {}
+[0.307163] (epos_node_test) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.309273] (epos_node_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.312936] (epos_node_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400182] (-) TimerEvent: {}
+[0.442048] (epos_node_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.496532] (epos_node_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500291] (-) TimerEvent: {}
+[0.600573] (-) TimerEvent: {}
+[0.677640] (epos_node_test) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.700697] (-) TimerEvent: {}
+[0.800959] (-) TimerEvent: {}
+[0.801235] (epos_node_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.822031] (epos_node_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.846949] (epos_node_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.847257] (epos_node_test) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.872314] (epos_node_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.872511] (epos_node_test) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.872592] (epos_node_test) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.898533] (epos_node_test) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.901066] (-) TimerEvent: {}
+[0.923941] (epos_node_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.925697] (epos_node_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_c>;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_c;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_cpp;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_fastrtps_c;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_cpp>;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_py\n'}
+[0.925800] (epos_node_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.951401] (epos_node_test) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.951570] (epos_node_test) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.954709] (epos_node_test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.960961] (epos_node_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.964237] (epos_node_test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.988553] (epos_node_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.988649] (epos_node_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.991830] (epos_node_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.997436] (epos_node_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001188] (-) TimerEvent: {}
+[1.047093] (epos_node_test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.068662] (epos_node_test) StdoutLine: {'line': b'-- Build files have been written to: /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test\n'}
+[1.101336] (-) TimerEvent: {}
+[1.104143] (epos_node_test) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.104514] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__cpp\x1b[0m\n'}
+[1.117412] (epos_node_test) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.201570] (-) TimerEvent: {}
+[1.302441] (-) TimerEvent: {}
+[1.402753] (-) TimerEvent: {}
+[1.503477] (-) TimerEvent: {}
+[1.603778] (-) TimerEvent: {}
+[1.612689] (epos_node_test) StdoutLine: {'line': b'[  6%] Built target epos_node_test__cpp\n'}
+[1.629201] (epos_node_test) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.630454] (epos_node_test) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.630687] (epos_node_test) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.639410] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_generator_c\x1b[0m\n'}
+[1.656349] (epos_node_test) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/epos_node_test__rosidl_generator_c.dir/rosidl_generator_c/epos_node_test/action/detail/go_to_home__functions.c.o\x1b[0m\n'}
+[1.703940] (-) TimerEvent: {}
+[1.804731] (-) TimerEvent: {}
+[1.894852] (epos_node_test) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libepos_node_test__rosidl_generator_c.so\x1b[0m\n'}
+[1.905032] (-) TimerEvent: {}
+[1.970801] (epos_node_test) StdoutLine: {'line': b'[ 22%] Built target epos_node_test__rosidl_generator_c\n'}
+[2.005126] (-) TimerEvent: {}
+[2.012548] (epos_node_test) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.014854] (epos_node_test) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.104943] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.105232] (-) TimerEvent: {}
+[2.126620] (epos_node_test) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/epos_node_test/action/go_to_home__type_support.cpp.o\x1b[0m\n'}
+[2.157125] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.194241] (epos_node_test) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/epos_node_test/action/detail/go_to_home__type_support.cpp.o\x1b[0m\n'}
+[2.205347] (-) TimerEvent: {}
+[2.305915] (-) TimerEvent: {}
+[2.406636] (-) TimerEvent: {}
+[2.490942] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_c\x1b[0m\n'}
+[2.506742] (-) TimerEvent: {}
+[2.511740] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.512471] (epos_node_test) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/epos_node_test/action/go_to_home__type_support.cpp.o\x1b[0m\n'}
+[2.561887] (epos_node_test) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/epos_node_test/action/detail/dds_fastrtps/go_to_home__type_support.cpp.o\x1b[0m\n'}
+[2.606868] (-) TimerEvent: {}
+[2.612178] (epos_node_test) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.692562] (epos_node_test) StdoutLine: {'line': b'[ 45%] Built target epos_node_test__rosidl_typesupport_c\n'}
+[2.706997] (-) TimerEvent: {}
+[2.761527] (epos_node_test) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.768109] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.787990] (epos_node_test) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/epos_node_test/action/detail/go_to_home__type_support.c.o\x1b[0m\n'}
+[2.807128] (-) TimerEvent: {}
+[2.812091] (epos_node_test) StdoutLine: {'line': b'[ 51%] Built target epos_node_test__rosidl_typesupport_cpp\n'}
+[2.839787] (epos_node_test) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.841755] (epos_node_test) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libepos_node_test__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.880256] (epos_node_test) StdoutLine: {'line': b'[ 58%] Built target epos_node_test__rosidl_typesupport_introspection_c\n'}
+[2.907241] (-) TimerEvent: {}
+[2.929849] (epos_node_test) StdoutLine: {'line': b'[ 58%] Built target epos_node_test__rosidl_typesupport_introspection_cpp\n'}
+[3.007351] (-) TimerEvent: {}
+[3.107742] (-) TimerEvent: {}
+[3.208107] (-) TimerEvent: {}
+[3.223482] (epos_node_test) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.308261] (-) TimerEvent: {}
+[3.325589] (epos_node_test) StdoutLine: {'line': b'[ 61%] Built target epos_node_test__rosidl_typesupport_fastrtps_cpp\n'}
+[3.338814] (epos_node_test) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.408425] (-) TimerEvent: {}
+[3.508758] (-) TimerEvent: {}
+[3.609083] (-) TimerEvent: {}
+[3.650180] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.680437] (epos_node_test) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/epos_node_test/action/detail/go_to_home__type_support_c.cpp.o\x1b[0m\n'}
+[3.709230] (-) TimerEvent: {}
+[3.809585] (-) TimerEvent: {}
+[3.909984] (-) TimerEvent: {}
+[4.010355] (-) TimerEvent: {}
+[4.065248] (epos_node_test) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.110507] (-) TimerEvent: {}
+[4.174686] (epos_node_test) StdoutLine: {'line': b'[ 70%] Built target epos_node_test__rosidl_typesupport_fastrtps_c\n'}
+[4.199474] (epos_node_test) StdoutLine: {'line': b'[ 70%] Built target epos_node_test\n'}
+[4.210648] (-) TimerEvent: {}
+[4.212346] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__py\x1b[0m\n'}
+[4.225867] (epos_node_test) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.310746] (-) TimerEvent: {}
+[4.411044] (-) TimerEvent: {}
+[4.511359] (-) TimerEvent: {}
+[4.611647] (-) TimerEvent: {}
+[4.711925] (-) TimerEvent: {}
+[4.812217] (-) TimerEvent: {}
+[4.901790] (epos_node_test) StdoutLine: {'line': b'[ 74%] Built target epos_node_test__py\n'}
+[4.912345] (-) TimerEvent: {}
+[4.914662] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__python\x1b[0m\n'}
+[4.933366] (epos_node_test) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/epos_node_test__python.dir/rosidl_generator_py/epos_node_test/action/_go_to_home_s.c.o\x1b[0m\n'}
+[5.012503] (-) TimerEvent: {}
+[5.069197] (epos_node_test) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_node_test/libepos_node_test__python.so\x1b[0m\n'}
+[5.112665] (-) TimerEvent: {}
+[5.121508] (epos_node_test) StdoutLine: {'line': b'[ 80%] Built target epos_node_test__python\n'}
+[5.134700] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.135026] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.135202] (epos_node_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target epos_node_test__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.155847] (epos_node_test) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/epos_node_test/_epos_node_test_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.156166] (epos_node_test) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/epos_node_test/_epos_node_test_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.156333] (epos_node_test) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/epos_node_test/_epos_node_test_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.213011] (-) TimerEvent: {}
+[5.314377] (-) TimerEvent: {}
+[5.361310] (epos_node_test) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_node_test/epos_node_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.362338] (epos_node_test) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_node_test/epos_node_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.363738] (epos_node_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/epos_node_test/epos_node_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.414507] (-) TimerEvent: {}
+[5.443539] (epos_node_test) StdoutLine: {'line': b'[100%] Built target epos_node_test__rosidl_typesupport_c__pyext\n'}
+[5.444274] (epos_node_test) StdoutLine: {'line': b'[100%] Built target epos_node_test__rosidl_typesupport_introspection_c__pyext\n'}
+[5.490762] (epos_node_test) StdoutLine: {'line': b'[100%] Built target epos_node_test__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.503926] (epos_node_test) CommandEnded: {'returncode': 0}
+[5.514661] (-) TimerEvent: {}
+[5.592106] (epos_node_test) JobProgress: {'identifier': 'epos_node_test', 'progress': 'install'}
+[5.605221] (epos_node_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test'], 'cwd': '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'victor'), ('LC_TIME', 'en_DK.UTF-8'), ('SSH_AGENT_PID', '1782'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/victor'), ('OLDPWD', '/home/victor/Desktop/ROB8-Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_DK.UTF-8'), ('MANAGERPID', '1597'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'victor'), ('JOURNAL_STREAM', '8:42978'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/victor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/victor-Surface-Book-2:@/tmp/.ICE-unix/1823,unix/victor-Surface-Book-2:/tmp/.ICE-unix/1823'), ('INVOCATION_ID', 'e1a7713eed7d4b2492846f954569854b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_DK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8c1b9e5_779b_43ef_8043_2dc822154279'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_DK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_DK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_DK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_DK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_DK.UTF-8'), ('LC_PAPER', 'en_DK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test:/opt/ros/foxy')]), 'shell': False}
+[5.614767] (-) TimerEvent: {}
+[5.615797] (epos_node_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.616112] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/rosidl_interfaces/epos_node_test\n'}
+[5.616400] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test\n'}
+[5.616669] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg\n'}
+[5.616886] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.617096] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action\n'}
+[5.617327] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail\n'}
+[5.617515] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__functions.h\n'}
+[5.617705] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__type_support.h\n'}
+[5.617926] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__functions.c\n'}
+[5.618118] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__type_support.h\n'}
+[5.618287] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__functions.h\n'}
+[5.618465] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__struct.h\n'}
+[5.618690] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__struct.h\n'}
+[5.618853] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__functions.c\n'}
+[5.619036] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/go_to_home.h\n'}
+[5.619228] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/home.h\n'}
+[5.619393] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/library_path.sh\n'}
+[5.619622] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/library_path.dsv\n'}
+[5.619888] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_generator_c.so\n'}
+[5.620071] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_generator_c.so" to ""\n'}
+[5.620248] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test\n'}
+[5.620423] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg\n'}
+[5.620639] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.620782] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action\n'}
+[5.620971] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail\n'}
+[5.621176] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_fastrtps_c.h\n'}
+[5.621352] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_fastrtps_c.h\n'}
+[5.621638] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_c.so\n'}
+[5.621892] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.622050] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test\n'}
+[5.622210] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg\n'}
+[5.622387] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.622597] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action\n'}
+[5.622780] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail\n'}
+[5.622930] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/dds_fastrtps\n'}
+[5.623123] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.623311] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.623488] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.623748] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.623969] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test\n'}
+[5.624219] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg\n'}
+[5.624360] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.624540] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action\n'}
+[5.624707] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail\n'}
+[5.624916] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__type_support.c\n'}
+[5.625054] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_introspection_c.h\n'}
+[5.625247] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__type_support.c\n'}
+[5.625412] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_introspection_c.h\n'}
+[5.625591] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_c.so\n'}
+[5.625836] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.626242] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_c.so\n'}
+[5.626906] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_c.so" to ""\n'}
+[5.627160] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test\n'}
+[5.627384] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action\n'}
+[5.627591] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail\n'}
+[5.627833] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__traits.hpp\n'}
+[5.628050] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__builder.hpp\n'}
+[5.628231] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__builder.hpp\n'}
+[5.628495] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__struct.hpp\n'}
+[5.628705] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__struct.hpp\n'}
+[5.628902] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__traits.hpp\n'}
+[5.629039] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/go_to_home.hpp\n'}
+[5.629249] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/home.hpp\n'}
+[5.629460] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test\n'}
+[5.629651] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action\n'}
+[5.629787] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail\n'}
+[5.629977] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.630177] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__type_support.cpp\n'}
+[5.630358] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__type_support.cpp\n'}
+[5.630526] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.630699] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_cpp.so\n'}
+[5.630916] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.631060] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_cpp.so\n'}
+[5.631479] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_cpp.so" to ""\n'}
+[5.631681] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/pythonpath.sh\n'}
+[5.631878] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/pythonpath.dsv\n'}
+[5.632085] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/__init__.py\n'}
+[5.666371] (epos_node_test) StdoutLine: {'line': b"Compiling '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/__init__.py'...\n"}
+[5.670137] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action\n'}
+[5.670379] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_home.py\n'}
+[5.670587] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_home_s.c\n'}
+[5.670759] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_go_to_home.py\n'}
+[5.670880] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_go_to_home_s.c\n'}
+[5.670988] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/__init__.py\n'}
+[5.671299] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.671992] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.672445] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.673119] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.673550] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.674249] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.674534] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__python.so\n'}
+[5.675106] (epos_node_test) StdoutLine: {'line': b'-- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__python.so" to ""\n'}
+[5.675298] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/action/GoToHome.idl\n'}
+[5.675492] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/action/GoToHome.action\n'}
+[5.675669] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/package_run_dependencies/epos_node_test\n'}
+[5.675856] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/parent_prefix_path/epos_node_test\n'}
+[5.676026] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/ament_prefix_path.sh\n'}
+[5.676207] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/ament_prefix_path.dsv\n'}
+[5.676374] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/path.sh\n'}
+[5.676556] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/path.dsv\n'}
+[5.676721] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.bash\n'}
+[5.676906] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.sh\n'}
+[5.677078] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.zsh\n'}
+[5.677274] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.dsv\n'}
+[5.677414] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.dsv\n'}
+[5.677566] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/packages/epos_node_test\n'}
+[5.677739] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_generator_cExport.cmake\n'}
+[5.677919] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.678210] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.678407] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.678689] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cExport.cmake\n'}
+[5.678884] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.679164] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_generator_cppExport.cmake\n'}
+[5.679425] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.679620] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.679886] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cppExport.cmake\n'}
+[5.680076] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.680271] (epos_node_test) StdoutLine: {'line': b'-- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/rosidl_cmake-extras.cmake\n'}
+[5.680433] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.680599] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.680785] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.680970] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.681161] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.681330] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.681417] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_testConfig.cmake\n'}
+[5.681490] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_testConfig-version.cmake\n'}
+[5.681557] (epos_node_test) StdoutLine: {'line': b'-- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.xml\n'}
+[5.683850] (epos_node_test) CommandEnded: {'returncode': 0}
+[5.714963] (-) TimerEvent: {}
+[5.780471] (epos_node_test) JobEnded: {'identifier': 'epos_node_test', 'rc': 0}
+[5.781062] (-) EventReactorShutdown: {}

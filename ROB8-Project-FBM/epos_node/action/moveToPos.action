@@ -1,0 +1,11 @@
+# Define the goal message
+---
+goalPos goal
+
+# Define the result message
+---
+resultPos result
+
+# Define the feedback message
+---
+feedbackPos feedback

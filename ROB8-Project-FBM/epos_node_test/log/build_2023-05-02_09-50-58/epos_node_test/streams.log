@@ -1,0 +1,222 @@
+[0.017s] Invoking command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test -- -j8 -l8
+[0.046s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.071s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.246s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.307s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.313s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.677s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.847s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.872s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.872s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.872s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.898s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.924s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.925s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_c>;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_c;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_cpp;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_fastrtps_c;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_cpp>;/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test/rosidl_generator_py
+[0.925s] -- Configured cppcheck exclude dirs and/or files: 
+[0.951s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.951s] -- Configured cpplint exclude dirs and/or files: 
+[0.954s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.961s] -- Added test 'lint_cmake' to check CMake code style
+[0.964s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.988s] -- Added test 'uncrustify' to check C / C++ code style
+[0.988s] -- Configured uncrustify additional arguments: 
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.997s] -- Configuring done
+[1.047s] -- Generating done
+[1.068s] -- Build files have been written to: /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test
+[1.104s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.104s] [35m[1mScanning dependencies of target epos_node_test__cpp[0m
+[1.117s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.612s] [  6%] Built target epos_node_test__cpp
+[1.630s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.630s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.630s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.639s] [35m[1mScanning dependencies of target epos_node_test__rosidl_generator_c[0m
+[1.656s] [ 19%] [32mBuilding C object CMakeFiles/epos_node_test__rosidl_generator_c.dir/rosidl_generator_c/epos_node_test/action/detail/go_to_home__functions.c.o[0m
+[1.895s] [ 22%] [32m[1mLinking C shared library libepos_node_test__rosidl_generator_c.so[0m
+[1.971s] [ 22%] Built target epos_node_test__rosidl_generator_c
+[2.012s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.015s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.105s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_cpp[0m
+[2.126s] [ 32%] [32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/epos_node_test/action/go_to_home__type_support.cpp.o[0m
+[2.157s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_introspection_cpp[0m
+[2.194s] [ 35%] [32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/epos_node_test/action/detail/go_to_home__type_support.cpp.o[0m
+[2.491s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_c[0m
+[2.511s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_fastrtps_cpp[0m
+[2.512s] [ 38%] [32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/epos_node_test/action/go_to_home__type_support.cpp.o[0m
+[2.562s] [ 41%] [32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/epos_node_test/action/detail/dds_fastrtps/go_to_home__type_support.cpp.o[0m
+[2.612s] [ 45%] [32m[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_c.so[0m
+[2.692s] [ 45%] Built target epos_node_test__rosidl_typesupport_c
+[2.761s] [ 48%] [32m[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_cpp.so[0m
+[2.768s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_introspection_c[0m
+[2.788s] [ 51%] [32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/epos_node_test/action/detail/go_to_home__type_support.c.o[0m
+[2.812s] [ 51%] Built target epos_node_test__rosidl_typesupport_cpp
+[2.839s] [ 54%] [32m[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_introspection_cpp.so[0m
+[2.841s] [ 58%] [32m[1mLinking C shared library libepos_node_test__rosidl_typesupport_introspection_c.so[0m
+[2.880s] [ 58%] Built target epos_node_test__rosidl_typesupport_introspection_c
+[2.930s] [ 58%] Built target epos_node_test__rosidl_typesupport_introspection_cpp
+[3.223s] [ 61%] [32m[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.325s] [ 61%] Built target epos_node_test__rosidl_typesupport_fastrtps_cpp
+[3.338s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.650s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_fastrtps_c[0m
+[3.680s] [ 67%] [32mBuilding CXX object CMakeFiles/epos_node_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/epos_node_test/action/detail/go_to_home__type_support_c.cpp.o[0m
+[4.065s] [ 70%] [32m[1mLinking CXX shared library libepos_node_test__rosidl_typesupport_fastrtps_c.so[0m
+[4.174s] [ 70%] Built target epos_node_test__rosidl_typesupport_fastrtps_c
+[4.199s] [ 70%] Built target epos_node_test
+[4.212s] [35m[1mScanning dependencies of target epos_node_test__py[0m
+[4.226s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.901s] [ 74%] Built target epos_node_test__py
+[4.914s] [35m[1mScanning dependencies of target epos_node_test__python[0m
+[4.933s] [ 77%] [32mBuilding C object CMakeFiles/epos_node_test__python.dir/rosidl_generator_py/epos_node_test/action/_go_to_home_s.c.o[0m
+[5.069s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/epos_node_test/libepos_node_test__python.so[0m
+[5.121s] [ 80%] Built target epos_node_test__python
+[5.134s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.135s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_introspection_c__pyext[0m
+[5.135s] [35m[1mScanning dependencies of target epos_node_test__rosidl_typesupport_c__pyext[0m
+[5.156s] [ 87%] [32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/epos_node_test/_epos_node_test_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.156s] [ 87%] [32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/epos_node_test/_epos_node_test_s.ep.rosidl_typesupport_c.c.o[0m
+[5.156s] [ 90%] [32mBuilding C object CMakeFiles/epos_node_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/epos_node_test/_epos_node_test_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.362s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/epos_node_test/epos_node_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.362s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/epos_node_test/epos_node_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.364s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/epos_node_test/epos_node_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.444s] [100%] Built target epos_node_test__rosidl_typesupport_c__pyext
+[5.444s] [100%] Built target epos_node_test__rosidl_typesupport_introspection_c__pyext
+[5.490s] [100%] Built target epos_node_test__rosidl_typesupport_fastrtps_c__pyext
+[5.504s] Invoked command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test -- -j8 -l8
+[5.605s] Invoking command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test
+[5.616s] -- Install configuration: ""
+[5.616s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/rosidl_interfaces/epos_node_test
+[5.616s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test
+[5.616s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg
+[5.617s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_generator_c__visibility_control.h
+[5.617s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action
+[5.617s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail
+[5.617s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__functions.h
+[5.617s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__type_support.h
+[5.618s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__functions.c
+[5.618s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__type_support.h
+[5.618s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__functions.h
+[5.618s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__struct.h
+[5.618s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__struct.h
+[5.619s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__functions.c
+[5.619s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/go_to_home.h
+[5.619s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/home.h
+[5.619s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/library_path.sh
+[5.619s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/library_path.dsv
+[5.620s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_generator_c.so
+[5.620s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_generator_c.so" to ""
+[5.620s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test
+[5.620s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg
+[5.620s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.620s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action
+[5.621s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail
+[5.621s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_fastrtps_c.h
+[5.621s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_fastrtps_c.h
+[5.621s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_c.so
+[5.622s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_c.so" to ""
+[5.622s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test
+[5.622s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg
+[5.622s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.622s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action
+[5.622s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail
+[5.623s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/dds_fastrtps
+[5.623s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_fastrtps_cpp.hpp
+[5.623s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_fastrtps_cpp.hpp
+[5.623s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_cpp.so
+[5.623s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.624s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test
+[5.624s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg
+[5.624s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.624s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action
+[5.624s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail
+[5.625s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__type_support.c
+[5.625s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_introspection_c.h
+[5.625s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__type_support.c
+[5.625s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_introspection_c.h
+[5.625s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_c.so
+[5.625s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_c.so" to ""
+[5.626s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_c.so
+[5.627s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_c.so" to ""
+[5.627s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test
+[5.627s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action
+[5.627s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail
+[5.628s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__traits.hpp
+[5.628s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__builder.hpp
+[5.628s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__builder.hpp
+[5.628s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__struct.hpp
+[5.628s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__struct.hpp
+[5.629s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__traits.hpp
+[5.629s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/go_to_home.hpp
+[5.629s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/home.hpp
+[5.629s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test
+[5.629s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action
+[5.629s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail
+[5.630s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__rosidl_typesupport_introspection_cpp.hpp
+[5.630s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/home__type_support.cpp
+[5.630s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__type_support.cpp
+[5.630s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/include/epos_node_test/action/detail/go_to_home__rosidl_typesupport_introspection_cpp.hpp
+[5.630s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_cpp.so
+[5.631s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_introspection_cpp.so" to ""
+[5.631s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_cpp.so
+[5.631s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__rosidl_typesupport_cpp.so" to ""
+[5.631s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/pythonpath.sh
+[5.632s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/pythonpath.dsv
+[5.632s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/__init__.py
+[5.666s] Compiling '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/__init__.py'...
+[5.670s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action
+[5.670s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_home.py
+[5.670s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_home_s.c
+[5.670s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_go_to_home.py
+[5.670s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/_go_to_home_s.c
+[5.671s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/action/__init__.py
+[5.671s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.672s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.672s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.673s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.673s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.674s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages/epos_node_test/epos_node_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.674s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__python.so
+[5.675s] -- Set runtime path of "/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/libepos_node_test__python.so" to ""
+[5.675s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/action/GoToHome.idl
+[5.675s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/action/GoToHome.action
+[5.675s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/package_run_dependencies/epos_node_test
+[5.675s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/parent_prefix_path/epos_node_test
+[5.676s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/ament_prefix_path.sh
+[5.676s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/ament_prefix_path.dsv
+[5.676s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/path.sh
+[5.676s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/environment/path.dsv
+[5.676s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.bash
+[5.677s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.sh
+[5.677s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.zsh
+[5.677s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/local_setup.dsv
+[5.677s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.dsv
+[5.677s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/ament_index/resource_index/packages/epos_node_test
+[5.677s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_generator_cExport.cmake
+[5.678s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_generator_cExport-noconfig.cmake
+[5.678s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cExport.cmake
+[5.678s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.678s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cExport.cmake
+[5.679s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cExport-noconfig.cmake
+[5.679s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_generator_cppExport.cmake
+[5.679s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cppExport.cmake
+[5.679s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.680s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cppExport.cmake
+[5.680s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_test__rosidl_typesupport_cppExport-noconfig.cmake
+[5.680s] -- Installing: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/rosidl_cmake-extras.cmake
+[5.680s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.680s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_libraries-extras.cmake
+[5.680s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_targets-extras.cmake
+[5.681s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.681s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.681s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.681s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_testConfig.cmake
+[5.681s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/cmake/epos_node_testConfig-version.cmake
+[5.681s] -- Up-to-date: /home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.xml
+[5.684s] Invoked command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test

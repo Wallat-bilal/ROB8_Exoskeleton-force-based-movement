@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from epos_node_test/action/Home.action
+// generated code does not contain a copyright notice
+
+
+module epos_node_test {
+  module action {
+    struct Home_Goal {
+      int32 order;
+    };
+    struct Home_Result {
+      sequence<int32> sequence;
+    };
+    struct Home_Feedback {
+      sequence<int32> partial_sequence;
+    };
+  };
+};

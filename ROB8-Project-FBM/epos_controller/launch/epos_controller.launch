@@ -1,0 +1,7 @@
+<launch>
+<!-- Start the move_1.py node -->
+    <node name="epos_controller" pkg="epos_controller" type="move_1.py" output="screen"/>
+<!-- Start the sensor_data_listener.py node -->
+    <node name="sensor_data_listener" pkg="epos_controller" type="move_subscriber.py" output="screen" />
+
+</launch>

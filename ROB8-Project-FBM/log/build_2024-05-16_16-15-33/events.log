@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.000511] (-) JobUnselected: {'identifier': 'epos_controller'}
+[0.000533] (-) JobUnselected: {'identifier': 'epos_node'}
+[0.000546] (-) JobUnselected: {'identifier': 'epos_node_test'}
+[0.000557] (-) JobUnselected: {'identifier': 'hamstrength'}
+[0.000569] (epos_action_node) JobQueued: {'identifier': 'epos_action_node', 'dependencies': OrderedDict()}
+[0.000583] (epos_action_node) JobStarted: {'identifier': 'epos_action_node'}
+[0.006971] (epos_action_node) JobProgress: {'identifier': 'epos_action_node', 'progress': 'cmake'}
+[0.007065] (epos_action_node) Command: {'cmd': ['/usr/bin/cmake', '/home/sam/exo_repo/ROB8-Project2/epos_action_node', '-DCMAKE_INSTALL_PREFIX=/home/sam/exo_repo/ROB8-Project2/install/epos_action_node'], 'cwd': '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/exo_repo/ROB8-Project2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '119059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AAU133055:@/tmp/.ICE-unix/1682,unix/AAU133055:/tmp/.ICE-unix/1682'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c07b3e72_a7fe_4696_94ba_152234b33436'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.APKQN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.611'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047150] (epos_action_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.095882] (epos_action_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099557] (-) TimerEvent: {}
+[0.100875] (epos_action_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.153591] (epos_action_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.158438] (epos_action_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.158673] (epos_action_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.158873] (epos_action_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.160830] (epos_action_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199764] (-) TimerEvent: {}
+[0.221588] (epos_action_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.226476] (epos_action_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.226679] (epos_action_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.226932] (epos_action_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.228235] (epos_action_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299937] (-) TimerEvent: {}
+[0.347587] (epos_action_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.400047] (-) TimerEvent: {}
+[0.404805] (epos_action_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.430411] (epos_action_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.433179] (epos_action_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.438469] (epos_action_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.447245] (epos_action_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.459565] (epos_action_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500159] (-) TimerEvent: {}
+[0.504555] (epos_action_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.506578] (epos_action_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.572314] (epos_action_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.590452] (epos_action_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600372] (-) TimerEvent: {}
+[0.622515] (epos_action_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.628322] (epos_action_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.679760] (epos_action_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.680076] (epos_action_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700555] (-) TimerEvent: {}
+[0.730597] (epos_action_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.731292] (epos_action_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800667] (-) TimerEvent: {}
+[0.843420] (epos_action_node) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.900779] (-) TimerEvent: {}
+[0.908043] (epos_action_node) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.000878] (-) TimerEvent: {}
+[1.091491] (epos_action_node) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.100988] (-) TimerEvent: {}
+[1.201289] (-) TimerEvent: {}
+[1.301556] (-) TimerEvent: {}
+[1.314028] (epos_action_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.400233] (epos_action_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401632] (-) TimerEvent: {}
+[1.415811] (epos_action_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.416565] (epos_action_node) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.433711] (epos_action_node) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.433889] (epos_action_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.433947] (epos_action_node) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.434001] (epos_action_node) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.448281] (epos_action_node) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.474640] (epos_action_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.484848] (epos_action_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.485718] (epos_action_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.486278] (epos_action_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.487646] (epos_action_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.501733] (-) TimerEvent: {}
+[1.506119] (epos_action_node) StdoutLine: {'line': b'-- Generating done\n'}
+[1.509421] (epos_action_node) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/exo_repo/ROB8-Project2/build/epos_action_node\n'}
+[1.517352] (epos_action_node) CommandEnded: {'returncode': 0}
+[1.517813] (epos_action_node) JobProgress: {'identifier': 'epos_action_node', 'progress': 'build'}
+[1.518261] (epos_action_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node', '--', '-j8', '-l8'], 'cwd': '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/exo_repo/ROB8-Project2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '119059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AAU133055:@/tmp/.ICE-unix/1682,unix/AAU133055:/tmp/.ICE-unix/1682'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c07b3e72_a7fe_4696_94ba_152234b33436'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.APKQN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.611'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.546001] (epos_action_node) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.552729] (epos_action_node) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.558491] (epos_action_node) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_epos_action_node\n'}
+[1.601840] (-) TimerEvent: {}
+[1.702159] (-) TimerEvent: {}
+[1.727110] (epos_action_node) StdoutLine: {'line': b'running egg_info\n'}
+[1.727519] (epos_action_node) StdoutLine: {'line': b'creating epos_action_node.egg-info\n'}
+[1.727676] (epos_action_node) StdoutLine: {'line': b'writing epos_action_node.egg-info/PKG-INFO\n'}
+[1.727829] (epos_action_node) StdoutLine: {'line': b'writing dependency_links to epos_action_node.egg-info/dependency_links.txt\n'}
+[1.727979] (epos_action_node) StdoutLine: {'line': b'writing top-level names to epos_action_node.egg-info/top_level.txt\n'}
+[1.728109] (epos_action_node) StdoutLine: {'line': b"writing manifest file 'epos_action_node.egg-info/SOURCES.txt'\n"}
+[1.729513] (epos_action_node) StdoutLine: {'line': b"reading manifest file 'epos_action_node.egg-info/SOURCES.txt'\n"}
+[1.730055] (epos_action_node) StdoutLine: {'line': b"writing manifest file 'epos_action_node.egg-info/SOURCES.txt'\n"}
+[1.750392] (epos_action_node) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_epos_action_node_egg\n'}
+[1.802249] (-) TimerEvent: {}
+[1.860880] (epos_action_node) StdoutLine: {'line': b'[  6%] Built target epos_action_node__cpp\n'}
+[1.866258] (epos_action_node) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/epos_action_node__rosidl_generator_c.dir/rosidl_generator_c/epos_action_node/action/detail/move__functions.c.o\x1b[0m\n'}
+[1.867713] (epos_action_node) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.867917] (epos_action_node) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.868006] (epos_action_node) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.902365] (-) TimerEvent: {}
+[1.971340] (epos_action_node) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libepos_action_node__rosidl_generator_c.so\x1b[0m\n'}
+[2.000624] (epos_action_node) StdoutLine: {'line': b'[ 22%] Built target epos_action_node__rosidl_generator_c\n'}
+[2.002448] (-) TimerEvent: {}
+[2.009326] (epos_action_node) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.010928] (epos_action_node) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.011128] (epos_action_node) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.102544] (-) TimerEvent: {}
+[2.184311] (epos_action_node) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/epos_action_node__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/epos_action_node/action/move__type_support.cpp.o\x1b[0m\n'}
+[2.202472] (epos_action_node) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/epos_action_node__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/epos_action_node/action/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[2.202654] (-) TimerEvent: {}
+[2.274291] (epos_action_node) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/epos_action_node__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/epos_action_node/action/detail/move__type_support.cpp.o\x1b[0m\n'}
+[2.302780] (-) TimerEvent: {}
+[2.327119] (epos_action_node) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/epos_action_node__rosidl_typesupport_c.dir/rosidl_typesupport_c/epos_action_node/action/move__type_support.cpp.o\x1b[0m\n'}
+[2.388012] (epos_action_node) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libepos_action_node__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.402900] (-) TimerEvent: {}
+[2.433033] (epos_action_node) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/epos_action_node__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/epos_action_node/action/detail/move__type_support.c.o\x1b[0m\n'}
+[2.438591] (epos_action_node) StdoutLine: {'line': b'[ 51%] Built target epos_action_node__rosidl_typesupport_c\n'}
+[2.453290] (epos_action_node) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/epos_action_node__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/epos_action_node/action/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[2.475624] (epos_action_node) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libepos_action_node__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.499473] (epos_action_node) StdoutLine: {'line': b'[ 58%] Built target epos_action_node__rosidl_typesupport_introspection_c\n'}
+[2.503012] (-) TimerEvent: {}
+[2.603336] (-) TimerEvent: {}
+[2.603650] (epos_action_node) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libepos_action_node__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.635161] (epos_action_node) StdoutLine: {'line': b'[ 61%] Built target epos_action_node__rosidl_typesupport_cpp\n'}
+[2.703457] (-) TimerEvent: {}
+[2.741409] (epos_action_node) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libepos_action_node__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.786697] (epos_action_node) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libepos_action_node__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.800951] (epos_action_node) StdoutLine: {'line': b'[ 67%] Built target epos_action_node__rosidl_typesupport_fastrtps_c\n'}
+[2.803640] (-) TimerEvent: {}
+[2.844483] (epos_action_node) StdoutLine: {'line': b'[ 67%] Built target epos_action_node__rosidl_typesupport_fastrtps_cpp\n'}
+[2.864959] (epos_action_node) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libepos_action_node__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.903838] (-) TimerEvent: {}
+[2.915234] (epos_action_node) StdoutLine: {'line': b'[ 70%] Built target epos_action_node__rosidl_typesupport_introspection_cpp\n'}
+[2.928093] (epos_action_node) StdoutLine: {'line': b'[ 70%] Built target epos_action_node\n'}
+[2.943790] (epos_action_node) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.004027] (-) TimerEvent: {}
+[3.104369] (-) TimerEvent: {}
+[3.204723] (-) TimerEvent: {}
+[3.305067] (-) TimerEvent: {}
+[3.405304] (-) TimerEvent: {}
+[3.420164] (epos_action_node) StdoutLine: {'line': b'[ 74%] Built target epos_action_node__py\n'}
+[3.433660] (epos_action_node) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/epos_action_node__rosidl_generator_py.dir/rosidl_generator_py/epos_action_node/action/_move_s.c.o\x1b[0m\n'}
+[3.505432] (-) TimerEvent: {}
+[3.534754] (epos_action_node) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_action_node/libepos_action_node__rosidl_generator_py.so\x1b[0m\n'}
+[3.563229] (epos_action_node) StdoutLine: {'line': b'[ 80%] Built target epos_action_node__rosidl_generator_py\n'}
+[3.578037] (epos_action_node) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/epos_action_node__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/epos_action_node/_epos_action_node_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.578226] (epos_action_node) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/epos_action_node__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/epos_action_node/_epos_action_node_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.578296] (epos_action_node) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/epos_action_node__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/epos_action_node/_epos_action_node_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.605545] (-) TimerEvent: {}
+[3.663780] (epos_action_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_action_node/epos_action_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.663981] (epos_action_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_action_node/epos_action_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.664053] (epos_action_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/epos_action_node/epos_action_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.691922] (epos_action_node) StdoutLine: {'line': b'[100%] Built target epos_action_node__rosidl_typesupport_introspection_c__pyext\n'}
+[3.692067] (epos_action_node) StdoutLine: {'line': b'[100%] Built target epos_action_node__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.692114] (epos_action_node) StdoutLine: {'line': b'[100%] Built target epos_action_node__rosidl_typesupport_c__pyext\n'}
+[3.699720] (epos_action_node) CommandEnded: {'returncode': 0}
+[3.705652] (-) TimerEvent: {}
+[3.735942] (epos_action_node) JobProgress: {'identifier': 'epos_action_node', 'progress': 'install'}
+[3.742577] (epos_action_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node'], 'cwd': '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/exo_repo/ROB8-Project2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '119059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AAU133055:@/tmp/.ICE-unix/1682,unix/AAU133055:/tmp/.ICE-unix/1682'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c07b3e72_a7fe_4696_94ba_152234b33436'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.APKQN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.611'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sam/exo_repo/ROB8-Project2/build/epos_action_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.748772] (epos_action_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.748912] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/ament_index/resource_index/rosidl_interfaces/epos_action_node\n'}
+[3.749137] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node\n'}
+[3.749274] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg\n'}
+[3.749336] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.749391] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action\n'}
+[3.749452] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/move.h\n'}
+[3.749537] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail\n'}
+[3.749598] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__struct.h\n'}
+[3.749680] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__functions.h\n'}
+[3.749736] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__functions.c\n'}
+[3.749810] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__type_support.h\n'}
+[3.749919] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/library_path.sh\n'}
+[3.750012] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/library_path.dsv\n'}
+[3.750144] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_generator_c.so\n'}
+[3.750348] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_generator_c.so" to ""\n'}
+[3.750415] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node\n'}
+[3.750456] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg\n'}
+[3.750501] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.750561] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action\n'}
+[3.750605] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail\n'}
+[3.750655] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[3.750694] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_fastrtps_c.so\n'}
+[3.750763] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.750828] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node\n'}
+[3.750869] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action\n'}
+[3.750912] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/move.hpp\n'}
+[3.750971] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail\n'}
+[3.751012] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__struct.hpp\n'}
+[3.751059] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__builder.hpp\n'}
+[3.751104] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__traits.hpp\n'}
+[3.751168] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node\n'}
+[3.751214] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg\n'}
+[3.751256] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.751319] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action\n'}
+[3.751361] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail\n'}
+[3.751402] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.751441] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/dds_fastrtps\n'}
+[3.751494] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.751566] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.751631] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node\n'}
+[3.751673] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg\n'}
+[3.751736] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.751776] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action\n'}
+[3.751815] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail\n'}
+[3.751871] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__type_support.c\n'}
+[3.751910] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[3.751986] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_introspection_c.so\n'}
+[3.752092] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.752156] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_c.so\n'}
+[3.752279] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_c.so" to ""\n'}
+[3.752346] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node\n'}
+[3.752418] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action\n'}
+[3.752470] (epos_action_node) StdoutLine: {'line': b'-- Up-to-date: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail\n'}
+[3.752519] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__type_support.cpp\n'}
+[3.752582] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/include/epos_action_node/epos_action_node/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.752647] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_introspection_cpp.so\n'}
+[3.752717] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.752777] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_cpp.so\n'}
+[3.752922] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_typesupport_cpp.so" to ""\n'}
+[3.752992] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/pythonpath.sh\n'}
+[3.753076] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/pythonpath.dsv\n'}
+[3.753140] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node-0.0.0-py3.10.egg-info\n'}
+[3.753219] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.753280] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.753337] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.753405] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.753466] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node\n'}
+[3.753532] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.753594] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/_epos_action_node_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.753653] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/_epos_action_node_s.ep.rosidl_typesupport_c.c\n'}
+[3.753719] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.753791] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/_epos_action_node_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.753869] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.753940] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action\n'}
+[3.754000] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action/_move_s.c\n'}
+[3.754055] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action/_move.py\n'}
+[3.754236] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action/__init__.py\n'}
+[3.754329] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/__init__.py\n'}
+[3.754373] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/libepos_action_node__rosidl_generator_py.so\n'}
+[3.779989] (epos_action_node) StdoutLine: {'line': b"Listing '/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node'...\n"}
+[3.780140] (epos_action_node) StdoutLine: {'line': b"Compiling '/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/__init__.py'...\n"}
+[3.780206] (epos_action_node) StdoutLine: {'line': b"Listing '/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action'...\n"}
+[3.780253] (epos_action_node) StdoutLine: {'line': b"Compiling '/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action/__init__.py'...\n"}
+[3.780298] (epos_action_node) StdoutLine: {'line': b"Compiling '/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/action/_move.py'...\n"}
+[3.783443] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.783691] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.783767] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.783814] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.783899] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.783942] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/local/lib/python3.10/dist-packages/epos_action_node/epos_action_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.783986] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_generator_py.so\n'}
+[3.784065] (epos_action_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/exo_repo/ROB8-Project2/install/epos_action_node/lib/libepos_action_node__rosidl_generator_py.so" to ""\n'}
+[3.784127] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/action/Move.idl\n'}
+[3.784196] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/action/Move.action\n'}
+[3.784288] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/ament_index/resource_index/package_run_dependencies/epos_action_node\n'}
+[3.784375] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/ament_index/resource_index/parent_prefix_path/epos_action_node\n'}
+[3.784444] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/ament_prefix_path.sh\n'}
+[3.784513] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/ament_prefix_path.dsv\n'}
+[3.784579] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/path.sh\n'}
+[3.784645] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/environment/path.dsv\n'}
+[3.784710] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/local_setup.bash\n'}
+[3.784773] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/local_setup.sh\n'}
+[3.784841] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/local_setup.zsh\n'}
+[3.784905] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/local_setup.dsv\n'}
+[3.784977] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/package.dsv\n'}
+[3.785065] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/ament_index/resource_index/packages/epos_action_node\n'}
+[3.785157] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_generator_cExport.cmake\n'}
+[3.785230] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.785305] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.785374] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.785450] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_generator_cppExport.cmake\n'}
+[3.785526] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.785613] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.785672] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.785743] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.785817] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_cExport.cmake\n'}
+[3.785887] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.785960] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.786031] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.786107] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_cppExport.cmake\n'}
+[3.786176] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_node__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.786251] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_generator_pyExport.cmake\n'}
+[3.786322] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/export_epos_action_node__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.786390] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/rosidl_cmake-extras.cmake\n'}
+[3.786456] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.786523] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.786590] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.786660] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.786725] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.786790] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.786855] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_nodeConfig.cmake\n'}
+[3.786910] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/cmake/epos_action_nodeConfig-version.cmake\n'}
+[3.786974] (epos_action_node) StdoutLine: {'line': b'-- Installing: /home/sam/exo_repo/ROB8-Project2/install/epos_action_node/share/epos_action_node/package.xml\n'}
+[3.788764] (epos_action_node) CommandEnded: {'returncode': 0}
+[3.805828] (-) TimerEvent: {}
+[3.860045] (epos_action_node) JobEnded: {'identifier': 'epos_action_node', 'rc': 0}
+[3.860535] (-) EventReactorShutdown: {}

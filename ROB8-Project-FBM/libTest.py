@@ -1,0 +1,33 @@
+from epos import eposClass
+from time import sleep
+epos1 = eposClass.epos("USB1", 1)
+epos2 = eposClass.epos("USB0", 3)
+#sleep(5)
+#epos1.MoveToPositionSpeed(20000, 5000)
+#sleep(1)
+epos1.home(False, 3000)
+epos2.home(False, 3000)
+sleep(1)
+print("Homed")
+#epos1.activatePosMode()
+#epos1.MoveToPositionSpeed(-int(2048/32)*100, 100)
+
+
+#epos1.activateVelMode()
+#epos1.moveVelocity(int((60/360)*180))
+
+sleep(1)
+#epos1.moveVelocity(0)
+pos = epos1.getPositionDeg(False)
+print(epos1.getPosition())
+print(pos)
+#print(pos.value)   
+print("Stop")
+sleep(1)
+print("Hello")
+#print(epos1.getPosition())
+#epos1.MoveToPositionSpeed(0, 5000)
+#epos2.MoveToPositionSpeed(100, 5000)
+epos1.close()
+epos2.close()
+#epos2.close()

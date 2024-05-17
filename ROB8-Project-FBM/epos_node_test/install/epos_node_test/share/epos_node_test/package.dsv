@@ -1,0 +1,14 @@
+source;share/epos_node_test/hook/cmake_prefix_path.ps1
+source;share/epos_node_test/hook/cmake_prefix_path.dsv
+source;share/epos_node_test/hook/cmake_prefix_path.sh
+source;share/epos_node_test/hook/ld_library_path_lib.ps1
+source;share/epos_node_test/hook/ld_library_path_lib.dsv
+source;share/epos_node_test/hook/ld_library_path_lib.sh
+source;share/epos_node_test/hook/pythonpath.ps1
+source;share/epos_node_test/hook/pythonpath.dsv
+source;share/epos_node_test/hook/pythonpath.sh
+source;share/epos_node_test/local_setup.bash
+source;share/epos_node_test/local_setup.dsv
+source;share/epos_node_test/local_setup.ps1
+source;share/epos_node_test/local_setup.sh
+source;share/epos_node_test/local_setup.zsh

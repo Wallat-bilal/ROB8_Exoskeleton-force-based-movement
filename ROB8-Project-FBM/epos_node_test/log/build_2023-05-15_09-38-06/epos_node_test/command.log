@@ -1,0 +1,2 @@
+Invoking command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test': /usr/bin/cmake --build /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test -- -j8 -l8
+Invoked command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test' returned '2': /usr/bin/cmake --build /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test -- -j8 -l8

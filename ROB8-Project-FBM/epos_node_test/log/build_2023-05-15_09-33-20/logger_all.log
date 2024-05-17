@@ -1,0 +1,120 @@
+[0.276s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.276s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffbc899f4f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffbc899f4f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffbc899fa30>)
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victor/Desktop/ROB8-Project/epos_node_test'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'epos_node_test'
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.349s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/victor/Desktop/ROB8-Project/install
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'epos_node_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'epos_node_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test', 'merge_install': False, 'path': '/home/victor/Desktop/ROB8-Project/epos_node_test', 'symlink_install': False, 'test_result_base': None}
+[0.416s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.419s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victor/Desktop/ROB8-Project/epos_node_test' with build type 'ament_cmake'
+[0.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victor/Desktop/ROB8-Project/epos_node_test'
+[0.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/Desktop/ROB8-Project/install/epos_node:/opt/ros/foxy /usr/bin/cmake --build /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test -- -j8 -l8
+[1.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/Desktop/ROB8-Project/install/epos_node:/opt/ros/foxy /usr/bin/cmake --build /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test -- -j8 -l8
+[1.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/Desktop/ROB8-Project/install/epos_node:/opt/ros/foxy /usr/bin/cmake --install /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test
+[1.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(epos_node_test)
+[1.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/Desktop/ROB8-Project/install/epos_node:/opt/ros/foxy /usr/bin/cmake --install /home/victor/Desktop/ROB8-Project/epos_node_test/build/epos_node_test
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test' for CMake module files
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test' for CMake config files
+[1.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('epos_node_test', 'cmake_prefix_path')
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/cmake_prefix_path.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/cmake_prefix_path.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/cmake_prefix_path.sh'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib'
+[1.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('epos_node_test', 'ld_library_path_lib')
+[1.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/ld_library_path_lib.ps1'
+[1.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/ld_library_path_lib.dsv'
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/ld_library_path_lib.sh'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/bin'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/pkgconfig/epos_node_test.pc'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages'
+[1.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('epos_node_test', 'pythonpath')
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/pythonpath.ps1'
+[2.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/pythonpath.dsv'
+[2.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/pythonpath.sh'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/bin'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.ps1'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.dsv'
+[2.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.sh'
+[2.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.bash'
+[2.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.zsh'
+[2.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/colcon-core/packages/epos_node_test)
+[2.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(epos_node_test)
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test' for CMake module files
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test' for CMake config files
+[2.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('epos_node_test', 'cmake_prefix_path')
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/cmake_prefix_path.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/cmake_prefix_path.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/cmake_prefix_path.sh'
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib'
+[2.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('epos_node_test', 'ld_library_path_lib')
+[2.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/ld_library_path_lib.ps1'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/ld_library_path_lib.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/ld_library_path_lib.sh'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/bin'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/pkgconfig/epos_node_test.pc'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/lib/python3.8/site-packages'
+[2.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('epos_node_test', 'pythonpath')
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/pythonpath.ps1'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/pythonpath.dsv'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/hook/pythonpath.sh'
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/bin'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.ps1'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.sh'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.bash'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/epos_node_test/package.zsh'
+[2.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/Desktop/ROB8-Project/epos_node_test/install/epos_node_test/share/colcon-core/packages/epos_node_test)
+[2.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.070s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.076s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.096s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/local_setup.ps1'
+[2.101s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victor/Desktop/ROB8-Project/epos_node_test/install/_local_setup_util_ps1.py'
+[2.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/setup.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/local_setup.sh'
+[2.105s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victor/Desktop/ROB8-Project/epos_node_test/install/_local_setup_util_sh.py'
+[2.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/setup.sh'
+[2.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/local_setup.bash'
+[2.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/setup.bash'
+[2.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/local_setup.zsh'
+[2.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/Desktop/ROB8-Project/epos_node_test/install/setup.zsh'
