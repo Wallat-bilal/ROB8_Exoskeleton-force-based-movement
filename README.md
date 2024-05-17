@@ -46,7 +46,7 @@ Once you have done the following commands, go into the UI and press 1. If nothin
 - `source install/setup.bash`
 
 Then run them once more and try to input the following in the UI: 1, then 3 to home (full homing). Once it is homed, make sure to `CTRL+C` out of the `eposActionServer.py` terminal only.
-
+Then turn off the power supply and back on to reset the EPOS controllers to 0. This will remove the data that was stored on them when running the homing protocol.
 Then restart:
 - `cd loadcell`
 - `python3 loadcell_multi4.py`
